@@ -19,7 +19,7 @@ class AdminAccountSeeder extends Seeder
         User::create([
             'name' => 'Ezikiel Tulawan',
             'email' => 'ezikiel@admin.com',
-            'password' => Hash::make('admin'),
+            'password' => 'admin',
             'role_id' => 1, //Administrator Role ID
         ]);
     }
